@@ -1,0 +1,26 @@
+:root{
+    --card-box: blue;
+    --search-btn: #6991E3 ;
+    --previous: #AEAEAE;
+}
+
+.header{
+background-image: linear-gradient(to right, #465AB8 , #261360);
+}
+
+.card{
+    background-color: var(--card-box);
+}
+
+.btn{
+    background-color: var(--search-btn);
+}
+
+#past-search {
+    background-color: var(--previous);
+}
+
+#icon {
+    max-width: 80px;
+    max-height: 80px;
+}
